@@ -429,17 +429,17 @@ a{
 .latest-news .news .new {
     display: flex;
     align-items: center;
-    gap:14px;
     justify-content: space-between;
-    
+
 }
 .latest-news .news .new:not(:last-of-type){
     border-bottom: 2px solid #eee;
 } 
- 
+.latest-news .news .new > .image{
+    width: 34%;
+}
 .latest-news .news .new > .image img{
     max-width: 100%;
-    border-radius: 6px;
 }
 .latest-news .news .new > .text{
     margin-left:0;
