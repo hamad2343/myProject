@@ -430,16 +430,17 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 15px;
 
 }
 .latest-news .news .new:not(:last-of-type){
     border-bottom: 2px solid #eee;
 } 
 .latest-news .news .new > .image{
-    width: 34%;
+    width:fit-content;
 }
 .latest-news .news .new > .image img{
-    max-width: 100%;
+    max-width: 110px;
 }
 .latest-news .news .new > .text{
     margin-left:0;
