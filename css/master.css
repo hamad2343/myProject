@@ -1460,10 +1460,14 @@ a{
     gap:20px;
     padding: 20px;
 }
+.plans-mohtawa .box{
+    padding:0;
+}
 .plans-mohtawa .box .saqf{
     padding: 15px;
     text-align: center;
-    border: 2px solid white;
+    border: 3px solid white;
+    outline-width:3px;
 }
 .plans-mohtawa .box .saqf h4{
     color:white;
@@ -1488,6 +1492,9 @@ a{
     position: absolute;
     left: -12px;
     font-size: 15px;
+}
+.plans-mohtawa .box .cont{
+    padding:15px;
 }
 .plans-mohtawa .box .cont li{
     font-size: 15px;
@@ -1525,11 +1532,17 @@ a{
     cursor: pointer;
 }
 .plans-mohtawa .box .cont .join a{
-    padding: 6px 12px;
+        display: block;
+    padding: 8px 35px;
     border-radius: 5px;
+    text-transform: capitalize;
     font-size: 15px;
     color: white;
     font-weight: bold;
+    margin: auto;
+    width: fit-content;
+    border: 3px solid #ffff;
+    outline: 3px solid #ddd;
 }
 .plans-mohtawa .box:nth-of-type(2) .cont li::before{
     font-family: "Font Awesome 6 Free";
